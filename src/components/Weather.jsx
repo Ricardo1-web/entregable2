@@ -12,7 +12,7 @@ const Weather = ({ weatherInfo }) => {
     }
 
     return (
-        <section className="text-center grid gap-6">
+        <section className="dark:bg-black text-center grid gap-6">
 
 
             <h2 className="font-bold text-2xl">{weatherInfo.name}, {weatherInfo?.sys.country}</h2>
