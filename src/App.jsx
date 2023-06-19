@@ -6,6 +6,7 @@ import Loader from './components/Loader'
 
 
 
+
 function App() {
   const [weatherInfo, setWeatherInfo] = useState(null)
   const [isDark, setIsDark] = useState(false)
@@ -54,6 +55,7 @@ if(isDark){
       </div>
       {
         weatherInfo ? <Weather weatherInfo={weatherInfo} /> : <Loader />
+
       }
 
     </main>
